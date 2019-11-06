@@ -1,4 +1,5 @@
 const multi = require('./sum.js');
+let divide = require('./divide.js');
 
 /* 
   myMathModule
@@ -7,8 +8,9 @@ const multi = require('./sum.js');
   Feel free to use it for you basic math needs.
 */
 const Math = {
-    PI: 3.141592653589793, // Mathematical constant defined as the ratio of a circle's circumference to its diameter.
-    mul: multi
-  }
-  
-  module.exports = Math
+  PI: 3.141592653589793, // Mathematical constant defined as the ratio of a circle's circumference to its diameter.
+  divide: divide,
+  mul: multi
+}
+
+module.exports = Math
