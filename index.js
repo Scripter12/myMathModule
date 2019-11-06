@@ -1,4 +1,4 @@
-const mul = require('./sum.js');
+const multi = require('./sum.js');
 
 /* 
   myMathModule
@@ -8,7 +8,7 @@ const mul = require('./sum.js');
 */
 const Math = {
     PI: 3.141592653589793, // Mathematical constant defined as the ratio of a circle's circumference to its diameter.
-    mul: mul
+    mul: multi
   }
   
   module.exports = Math
